@@ -1,13 +1,13 @@
 html {
     background-color: rgb(58, 58, 58);
     font-size: large;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
     margin-top: 1em;
     text-align: center;
     color: rgb(54, 175, 231);
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 #container {
     display: flex;
