@@ -1,10 +1,3 @@
-
-
-//same operator multiple times broken
-//ie 1+2+3+4+5+6+1, then equals at the end 
-//adds 6 instead of one for the last operation
-
-
 let numbers = document.querySelectorAll('.numbers')
 let inputText = document.querySelector('#input')
 let operators = document.querySelectorAll('.oper')
@@ -50,8 +43,7 @@ function addnum2(e) {
         inputText.innerHTML += e.target.innerHTML
     }
 }   
-//fix double operator press issue and allow strings of 
-//operations (like kims calculator)
+
 operators.forEach((meme) => {
     meme.addEventListener('click', operator)})
         
